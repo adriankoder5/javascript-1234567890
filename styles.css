@@ -18,9 +18,13 @@ h1 {
 }
 
 .card{
+  /* visibility: hidden; */
   height: 100px;
-  width: 50px;
-  border: 1px black;
+  width: 70px;
+  padding: 4px;
+  border: 10px solid;
+  border-image-source: linear-gradient( 40deg, red, blue);
+  border-image-slice: 10;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,4 +32,8 @@ h1 {
 
 .Ctxt{
   text-align: center;
+}
+
+.hideUnhide{
+  display:none;
 }

@@ -20,6 +20,8 @@ addText.addEventListener('click', () => {
   let newTxt = document.querySelector('p');
   newTxt.textContent = 'clicket';
   addText.textContent = 'clicket';
+  const visibilityCard = document.querySelector('.hideUnhide');
+  visibilityCard.style.display='block';
 });
 
 let addList = document.querySelector('#listBtn');
